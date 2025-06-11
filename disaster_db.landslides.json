@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "683c70ab9986fbfc0ca144c4"
+  },
+  "location": "Blatten, Valais, Switzerland",
+  "latitude": 46.395,
+  "longitude": 7.822,
+  "date": "2025-05-31",
+  "source": "nasa landslide",
+  "type": "landslide",
+  "description": "A massive landslide on May 31st struck the Swiss village of Blatten in Lötschental, Valais, Switzerland. Houses were destroyed, residents evacuated, and the terrain destabilized.",
+  "timestamp": {
+    "$date": "2025-06-01T15:24:06.433Z"
+  }
+}]

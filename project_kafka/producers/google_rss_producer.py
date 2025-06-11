@@ -1,3 +1,5 @@
+#google_rss_producers.py
+
 import os
 import json
 import time
@@ -12,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Kafka setup
-KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
+KAFKA_BROKER = os.getenv("KAFKA_BROKER", "kafka:29092")
 KAFKA_TOPIC = os.getenv("KAFKA_GOOGLE_RSS_TOPIC", "google_rss_articles")
 producer = KafkaProducer(
     bootstrap_servers=KAFKA_BROKER,
