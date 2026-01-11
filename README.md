@@ -4,7 +4,7 @@ IntelliCrisis is a full-stack, real-time AI-powered analytics system designed to
 
 ⸻
 
-🧩 Problem Statement
+🧩 Problem Statement.
 
 Natural disasters are reported across numerous platforms — but there’s often a disconnect between news articles, real-time events, and public awareness. The system aims to:
 	•	Bridge the gap between disaster news and verified events
@@ -60,4 +60,5 @@ Trigger `semantic_scorer_dag` manually
 
 # 7. Open the Dashboard
 http://localhost:8501
+
 
